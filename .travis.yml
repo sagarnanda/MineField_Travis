@@ -10,5 +10,6 @@ install:
 - export CXX="g++-4.8"
 
 script:
+  - make clean
   - make
   - ./FieldTest
